@@ -9,6 +9,7 @@ for( var i = 2; i<primo; i++){
 }
 console.log(result);*/
 
+/* Problema 2
 function Invertir(cadena : string){
     var cadenainvertida : String
     cadenainvertida = ""; 
@@ -18,3 +19,13 @@ function Invertir(cadena : string){
     return cadenainvertida;
 } 
 console.log(Invertir("this is a sample string"));
+*/
+
+    var cadena = "bangnab";
+    var resul =true;
+    var array = cadena.split("");
+    var revertido = array.reverse();
+    if (cadena != revertido.join("")){
+        resul = false;
+    }
+console.log(resul);
